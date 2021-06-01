@@ -1,30 +1,25 @@
+// This is the function that resets the input text field
+function resetFunction(){
+    let reset = document.getElementById("input").value = "";
+    console.log(reset);
+}
+
+function palindromeFunction() {
+    const str = document.getElementById("input").value;
+    const alphaNumeric = str.toLowerCase().match(/[a-z0-9]/g);
+    let a = (alphaNumeric.join("") === alphaNumeric.reverse().join("")) ? document.getElementsByClassName("output-images").innerHTML = `${str} is a palindrome` : document.getElementsByClassName("output-images").innerHTML = `${str} is not a palindrome`;
+
+    console.log(a);
+}
 
 //let outImage = document.getElementById  
 
-function palindromeFunction(str) {
-    const str = document.getElementById("input").value;
-    const alphaNumeric = str.toLowerCase().match(/[a-z0-9]/g);
-    (alphaNumeric.join("") === alphaNumeric.reverse().join("")) ? document.getElementByClass("output-images").innerHTML = `${str}` : document.getElementByClass("output-images").innerHTML = `${out}`;
-    //return out;
-  }
+// 
+//     
+//     
+//     //     //return out;
+//   
 
 
-// This is the function that resets the input text field
-function resetFunction(){
-    document.getElementById("input").value = "";
-}
 
 
-/*
-//
-function aPalindrome(){
-    let outPut = document.getElementByClass("output-images").innerHTML = `${out}`;
-    return outPut;
-}
-
-function notPalindrome(){
-    let outPut = document.getElementByClass("output-images").innerHTML = "Nope!!!"
-    return outPut;
-     
-}
-*/

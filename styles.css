@@ -27,6 +27,9 @@ p.content,p{
     font-size: 0.8em;
     margin-bottom: 1em;
 }
+div.cover{
+    background-color: transparent;
+}
 
 .palindrome-input{
     margin-bottom: 0.5em;
