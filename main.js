@@ -12,7 +12,6 @@ function palindromeFunction() {
     console.log(a);
 }
 
-
 //   
 
 
