@@ -12,12 +12,7 @@ function palindromeFunction() {
     console.log(a);
 }
 
-//let outImage = document.getElementById  
 
-// 
-//     
-//     
-//     //     //return out;
 //   
 
 
